@@ -13,5 +13,5 @@ var isSubsequence = function(s, t) {
             return true;
         }
     }
-    return sIndex === s.length ;
+    return sIndex === s.length ? true : false ;
 };
